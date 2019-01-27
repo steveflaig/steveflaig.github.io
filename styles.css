@@ -1,0 +1,85 @@
+html {
+  background-image: url("rock.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover !important;
+  max-width:100%;
+  height:100%;
+  width:auto;
+}
+
+.container {
+	width: 100%
+}
+
+.top {
+	height: .5vh;
+	width: 100%;
+}
+
+@media (max-width: 35em) {
+  .top-left, .top-right {
+     float: none;
+     width: 100%;
+	 }
+}
+
+@media (max-width: 35em) {
+  #title, #description {
+		 font-size: 5vmax !important;
+		 padding-top: 2%
+	 }
+}
+
+@media (max-width: 35em) {
+  #resume {
+		 font-size: 3vw !important;
+	 }
+}
+
+.top-left {
+	float: left;
+}
+
+.top-right {
+	float: right;
+	text-align: right;
+}
+
+a:link {
+    text-decoration: none;
+		color: inherit;
+}
+
+a:visited {
+    text-decoration: none;
+		color: inherit;
+}
+
+a.link:hover {
+    opacity: .25;
+}
+
+#title {
+	font-family: 'Roboto Condensed', sans-serif; font-weight: 300;
+	color: white;
+	font-size: 36px;
+	font-size: 5vh;
+	text-align: center;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	display: block;
+	opacity: 0.6;
+	white-space: nowrap;
+}
+
+a[href^="mailto:"]
+{
+  color: white;
+	letter-spacing: 5px
+}
